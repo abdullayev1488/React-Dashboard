@@ -40,7 +40,7 @@ export const Menu = () => {
                   }`}
               >
                 {link.label}
-                {link.to == "/admin/basket" && (
+                {link.to == "/basket" && (
                   <span
                     className="
                         inline-flex items-center justify-center
