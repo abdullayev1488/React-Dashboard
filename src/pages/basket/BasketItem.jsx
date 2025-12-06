@@ -1,13 +1,13 @@
 export const BasketItem = ({ item, handleDelete }) => {
     return (
-        <div className="flex items-center  bg-white rounded-xl shadow-md p-4 mb-4">
+        <div className="flex items-center flex-col sm:flex-row gap-4  bg-white rounded-xl shadow-md p-4 mb-4">
             <img
                 src={item.thumbnail}
                 alt={item.title}
                 className="w-20 h-20 object-cover rounded-lg"
             />
 
-            <div className="ml-4 flex-1">
+            <div className=" flex-1">
                 <h2 className="text-gray-800 font-semibold text-lg line-clamp-1">
                     {item.title}
                 </h2>
