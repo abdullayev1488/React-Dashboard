@@ -24,7 +24,7 @@ export const AppRouter = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/admin" element={<AdminLayout setQuery={setQuery} />}>
+                <Route path="/" element={<AdminLayout setQuery={setQuery} />}>
                     <Route index element={<HomePage />} />
                     <Route path="contact" element={<ContactPage />} />
                     <Route path="products" element={<ProductPage query={query}/>} />

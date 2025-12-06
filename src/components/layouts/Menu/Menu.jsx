@@ -7,10 +7,10 @@ export const Menu = () => {
   const { basket } = useContext(DataContext)
 
   const links = [
-    { to: "/admin", label: "Home" },
-    { to: "/admin/products", label: "Products" },
-    { to: "/admin/contact", label: "Contact" },
-    { to: "/admin/basket", label: "Basket" }
+    { to: "/", label: "Home" },
+    { to: "/products", label: "Products" },
+    { to: "/contact", label: "Contact" },
+    { to: "/basket", label: "Basket" }
   ];
 
   return (
